@@ -1,0 +1,110 @@
+/*basic style*/
+* {
+        box-sizing: border-box;
+    }
+
+    body {
+        background-color: white;
+    }
+
+    h1 {
+        margin-bottom: 15px;
+        text-align: center;
+        color: #ff4532;
+        font-size: 50px;
+    }
+
+    section {
+        position: relative;
+        padding: 15px;
+        width:100%;
+    }
+
+    p {
+        clear:right;
+        position: relative;
+    }
+
+    div {
+        position: relative;
+        background-color: gray;
+        border: 3.5px solid black;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: auto;
+    }
+    .content{
+        padding : 5px;
+    }
+
+    .subhd1 {
+        float:right;
+        width: 100px;
+        padding: 5px;
+        margin: -3.5px -3.5px 0px;
+        border: 3.5px solid black;
+        text-align: center;
+        font-size: 125%;
+        font-weight: bold;
+        background-color:#2f4bff ;
+    }
+
+    .subhd2 {
+        float: right;
+        width: 100px;
+        padding: 5px;
+        margin: -3.5px -3.5px 0px;
+        border: 3.5px solid black;
+        text-align: center;
+        font-size: 125%;
+        font-weight: bold;
+        background-color:#335302 ;
+    }
+
+    .subhd3 {
+        float: right;
+        width: 100px;
+        padding: 5px;
+        margin: -3.5px -3.5px 0px;
+        border: 3.5px solid black;
+        text-align: center;
+        font-size: 125%;
+        font-weight: bold;
+        background-color:#b40514 ;
+    }
+
+
+    /* desktop-version */
+    @media(min-width: 992px){
+        .col-lg-4{
+            float:left;
+            width:33.33%
+
+        }
+    }
+
+    /*Tablet-version*/
+    @media(min-width: 768px) and (max-width: 991px){
+        .col-md-6{
+            float: left;
+            width:50%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .col-md-12{
+            width: 100%;
+            float:left;
+            margin-left: auto;
+            margin-right: auto;
+            }
+
+    }
+    /*Mobile-version*/
+    @media(max-width: 767px){
+        .col-sm-12{
+            float:left;
+            width:100%;
+        }
+
+    }
